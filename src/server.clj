@@ -8,7 +8,7 @@
   (let [uri (:uri request)]
     (case uri
       "/cog" (-> (response/file-response "./TCI.tif")
-                      (response/content-type "image/tiff"))
+                 (response/content-type "image/tiff"))
       (ring.util.response/not-found "Not Found"))))
 
 (defn -main [& args]
