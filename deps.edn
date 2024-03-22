@@ -1,0 +1,7 @@
+{:deps
+ {org.clojure/clojure {:mvn/version "1.10.3"}
+  ring/ring-core {:mvn/version "1.8.1"}
+  ring/ring-jetty-adapter {:mvn/version "1.8.1"}
+  ring/ring-devel {:mvn/version "1.8.1"}
+  ring-cors/ring-cors {:mvn/version "0.1.13"}
+  ring-range-middleware/ring-range-middleware {:mvn/version "0.1.0"}}}
